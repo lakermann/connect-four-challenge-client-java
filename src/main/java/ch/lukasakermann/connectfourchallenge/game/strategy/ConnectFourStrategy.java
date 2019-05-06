@@ -8,7 +8,7 @@ public interface ConnectFourStrategy {
     default void win(Game game) {
     }
 
-    default void loose(Game game) {
+    default void lose(Game game) {
     }
 
     default void draw(Game game) {

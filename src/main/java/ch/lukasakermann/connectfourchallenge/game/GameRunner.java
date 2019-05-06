@@ -58,14 +58,14 @@ public class GameRunner implements Runnable {
                     connectFourStrategy.win(game);
                     gamesWon += 1;
                 } else if (!playerId.equals(game.getWinner())) {
-                    connectFourStrategy.loose(game);
+                    connectFourStrategy.lose(game);
                 }
             }
             LocalDateTime endTime = LocalDateTime.now();
             long durationInSeconds = Duration.between(startTime, endTime).getSeconds();
             LOGGER.info("Games are finished: {}, won {}, draw {}, duration {}s", playerId, gamesWon, gamesDraw, durationInSeconds);
-        } catch (InterruptedException e) {
-            LOGGER.error("Games are interrupted: {}", e);
+        } catch (Exception e) {
+            LOGGER.error("Games are interrupted:", e);
         }
     }
 }
