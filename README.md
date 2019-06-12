@@ -1,4 +1,6 @@
-# connect-four-client-client-java ![Build Status](https://travis-ci.org/lakermann/connect-four-challenge-client-java.svg)
+# Connect Four Challenge Java Client [![Build Status](https://travis-ci.org/lakermann/connect-four-challenge-client-java.svg?branch=master)](https://travis-ci.org/lakermann/connect-four-challenge-client-java)
+
+_by [Lukas Akermann](https://github.com/lakermann), October 2018_
 
 This is a Java client for the [connect four challenge server](https://github.com/lakermann/connect-four-challenge-server).
 This client allows you to easily develop a bot for the connect four challenge.
