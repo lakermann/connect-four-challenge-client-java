@@ -1,4 +1,4 @@
-# Connect Four Challenge Java Client [![Build Status](https://travis-ci.org/lakermann/connect-four-challenge-client-java.svg?branch=master)](https://travis-ci.org/lakermann/connect-four-challenge-client-java)
+# Connect Four Challenge Java Client [![Build](https://github.com/lakermann/connect-four-challenge-client-java/actions/workflows/build.yml/badge.svg)](https://github.com/lakermann/connect-four-challenge-client-java/actions/workflows/build.yml)
 
 _by [Lukas Akermann](https://github.com/lakermann), October 2018_
 
